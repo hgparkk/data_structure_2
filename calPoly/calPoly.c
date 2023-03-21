@@ -1,5 +1,6 @@
 ﻿
 #include <stdio.h>
+#include <math.h>
 #define MAX_DEGREE 101
 
 typedef struct
@@ -18,6 +19,7 @@ Polynomial read_poly()
     printf("각 항의 계수를 입력하시오 (총 %d개):", p.degree + 1);
     for (i = 0; i <= p.degree; i++)
         scanf("%f", p.coef + i);
+
     return p;
 }
 
@@ -51,23 +53,32 @@ Polynomial add_poly(Polynomial a, Polynomial b)
 
 double Cal_poly(Polynomial p, double x)
 {
-    double firstx;
+    double result = 0;
     int i;
-    Polynomial p;
 
-    for(i=0;i<p.degree-1;i++)
+    for(i=0;i<p.degree;i++)
     {
-        firstx = x * x;
+        result += p.coef[i] * pow(x, (double)(p.degree-i));
     }
+    result += p.coef[p.degree];
+
+    return result;
 }
 
 int main()
 {
     Polynomial a, b, c;
+    double a1, b1, c1;
     a = read_poly();
     b = read_poly();
     c = add_poly(a, b);
-    print_poly(b, "A=");
+    print_poly(a, "A=");
     print_poly(b, " B= ");
     print_poly(c, " A+B= ");
+    a1 = Cal_poly(a, 3.0);
+    b1 = Cal_poly(b, 3.0);
+    c1 = Cal_poly(c, 3.0);
+    printf("A= %f\n", a1);
+    printf("B= %f\n", b1);
+    printf("A+B= %f\n", c1);
 }
