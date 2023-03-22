@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polynomialExample", "polyno
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calPoly", "calPoly\calPoly.vcxproj", "{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polynomialver2", "polynomialver2\polynomialver2.vcxproj", "{F1CE832F-5487-4BF0-9A36-F8696FEF207A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}.Release|x64.Build.0 = Release|x64
 		{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}.Release|x86.ActiveCfg = Release|Win32
 		{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}.Release|x86.Build.0 = Release|Win32
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Debug|x64.ActiveCfg = Debug|x64
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Debug|x64.Build.0 = Debug|x64
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Debug|x86.Build.0 = Debug|Win32
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Release|x64.ActiveCfg = Release|x64
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Release|x64.Build.0 = Release|x64
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Release|x86.ActiveCfg = Release|Win32
+		{F1CE832F-5487-4BF0-9A36-F8696FEF207A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
