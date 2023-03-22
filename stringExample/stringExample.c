@@ -1,4 +1,11 @@
-﻿#include <stdio.h>
+﻿/*
+프로그램 내용 : 문자열과 관련된 몇가지 기능을 실습하는 프로그램
+실습일 : 2023.03.22
+실습자 : 박현규
+학번 : 202111678
+*/
+
+#include <stdio.h>
 #include <string.h>
 
 int main(void)

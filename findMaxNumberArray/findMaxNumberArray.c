@@ -1,4 +1,11 @@
-﻿#include <stdio.h>
+﻿/*
+프로그램 내용 : 두 수를 입력받아 각각 A와 B배열에 넣고 각 배열의 가장 큰 수 두개를 비교해 더 큰 배열을 출력하는 프로그램
+실습일 : 2023.03.22
+실습자 : 박현규
+학번 : 202111678
+*/
+
+#include <stdio.h>
 
 int find_max_score(int score[], int n)
 {
