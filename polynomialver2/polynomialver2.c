@@ -38,7 +38,6 @@ void print_poly(Polynomial p, char str[])
         else
             printf("%5.1f x^%d ", p.coef[i], p.degree - i);
     }
-    if(p.coef[p.degree]>=0)
         printf("+%4.1f\n", p.coef[p.degree]);
     else
         printf("%4.1f\n", p.coef[p.degree]);
