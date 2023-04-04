@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33502.453
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "data_structure_2", "data_structure_2\data_structure_2.vcxproj", "{CF2147DF-C4ED-4409-8720-BB97FFA45674}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polynomialExample", "polynomialExample\polynomialExample.vcxproj", "{FCB4A39B-41C0-41B3-9E19-FE4B6EC5D617}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calPoly", "calPoly\calPoly.vcxproj", "{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polynomialver2", "polynomialver2\polynomialver2.vcxproj", "{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,14 @@ Global
 		{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}.Release|x64.Build.0 = Release|x64
 		{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}.Release|x86.ActiveCfg = Release|Win32
 		{4031F5F2-B14E-4CCA-B03D-F3D4E03C6E9A}.Release|x86.Build.0 = Release|Win32
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Debug|x64.ActiveCfg = Debug|x64
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Debug|x64.Build.0 = Debug|x64
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Debug|x86.Build.0 = Debug|Win32
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Release|x64.ActiveCfg = Release|x64
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Release|x64.Build.0 = Release|x64
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Release|x86.ActiveCfg = Release|Win32
+		{99AFD2FB-BCDD-46F3-90D7-43A1390329CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
